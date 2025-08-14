@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	padding: 1rem;
+} */
+
+/* .menuList .listItem {
+	padding: .2rem 1.5rem;
+	width: 100%;
+	position: relative;
+} */
+
+/* .menuList .listItem li &::before{
+	position: absolute;
+	content: '';
+	height: 100%;
+	left: 0;
+	width: 5px;
+	bottom: 0;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: rgb(255, 119, 8) ;
+	
+} */
+
+.menuLink {
+	color: gray;
+	font-weight: 500;
+}
+
+.menuLink .icon {
+	margin-right: 0.5rem;
+	color: gray;
+}
+
+/* &:hover .menuLink{
+	color: blueviolet;
+
+}
+&:hover::before{
+	height: 100%;
+	transition: .3s;
+} */
+
+/* .btn {
+	background-color: rgb(131, 179, 131);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgb(202, 120, 120);
+	padding: 0.8rem 1rem;
+}
+
+.btn:hover {
+	background: rgb(226, 194, 194);
+	color: rgb(107, 165, 107);
+	transition: 0.3s;
+}
+ */
+
+.btn .icon {
+	margin-left: 0.5rem;
+}
+
+h1 {
+	font-size: 1rem;
+}
+h2 {
+	font-size: 0.9rem;
+}
+h3 {
+	font-size: 0.8rem;
+}
+
+/* &::before .main .b4 {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 75%;
+	background: orange;
+	left: 0;
+	bottom: 0;
+	border-radius: 1rem;
+} */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}

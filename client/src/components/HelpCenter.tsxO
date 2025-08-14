@@ -1,0 +1,32 @@
+import React from 'react';
+
+const HelpCenter = () => {
+    return (
+        <div className="p-6 bg-gray-100 rounded-lg shadow-lg helpCenter">
+            <h1 className="mb-4 text-3xl font-bold text-blue-700">Help Center</h1>
+            <p className="mb-6 text-lg text-gray-700">
+                Here are some frequently asked questions and tips to help you navigate the eLicense system.
+            </p>
+            <div className="grid gap-6 md:grid-cols-2">
+                <div className="p-4 bg-white rounded-lg shadow-md">
+                    <h3 className="mb-2 text-xl font-semibold text-blue-700">How to Apply for a License?</h3>
+                    <p className="text-gray-600">Click on "New Application" in the dashboard and fill out the form.</p>
+                </div>
+                <div className="p-4 bg-white rounded-lg shadow-md">
+                    <h3 className="mb-2 text-xl font-semibold text-blue-700">How to Track My Application?</h3>
+                    <p className="text-gray-600">Go to "My Licenses" to view the status of your applications.</p>
+                </div>
+                <div className="p-4 bg-white rounded-lg shadow-md">
+                    <h3 className="mb-2 text-xl font-semibold text-blue-700">What Payment Methods Are Accepted?</h3>
+                    <p className="text-gray-600">We accept Ecocash, OneMoney, bank transfers, and PayPal.</p>
+                </div>
+                <div className="p-4 bg-white rounded-lg shadow-md">
+                    <h3 className="mb-2 text-xl font-semibold text-blue-700">Need More Help?</h3>
+                    <p className="text-gray-600">Contact our support desk for additional assistance.</p>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default HelpCenter;
