@@ -3,7 +3,7 @@ CivicPay AI is a cloud-based platform that digitizes municipal shop licensing an
 
 📌 Inspiration
 This project was inspired by the [Masvingo City Council's Shop Licence Application Form (Form S.L.2)](https://masvingocity.org.zw/wp-content/uploads/2020/01/Application-for-issue-of-new-licence.pdf), which outlines a complex, paper-based process for obtaining and managing trade licenses. 
-
+Demo: https://drive.google.com/file/d/1OxUSAhA3wrMgfC4l_qoJ3CLjBV_oL1dc/view?pli=1
 Key pain points identified include:
 
 Manual data entry for applicant and business details
